@@ -1,0 +1,137 @@
+<!--
+title: In-Home Dementia Care in {{city}} | Dementia Companions
+description: In-home dementia companionship and support across {{county}}. Same companion, every visit. Serving {{neighborhoodsShort}}.
+schema: {{schema}}
+-->
+<main id="main">
+
+<!-- City hero -->
+<section class="hero city-hero">
+  <div class="container">
+    <div class="reveal">
+      <span class="pill">Serving {{city}} · {{county}}</span>
+      <h1>In-Home Dementia Care in <span class="highlight">{{city}}</span></h1>
+      <p class="lead">Specialist in-home companionship and support for people living with dementia across {{county}}. Same companion, every visit — building the trust and consistency that makes the difference.</p>
+      <div style="display:flex;gap:.8rem;flex-wrap:wrap;margin:1.6rem 0">
+        <a class="btn btn-amber" href="contact.html">See 3 Free Caregiver Profiles</a>
+        <a class="btn btn-outline" href="tel:+16893336079">Call +1 (689) 333-6079</a>
+      </div>
+      <div class="city-stats">
+        <div><b>98<sup>%</sup></b><span>Family satisfaction</span></div>
+        <div><b>1–2<sup>wks</sup></b><span>Average time to first visit</span></div>
+        <div><b>100<sup>%</sup></b><span>AHCA Level 2 screened companions</span></div>
+      </div>
+    </div>
+    <div class="hero-media reveal">
+      <div class="main"><img src="assets/img/{{image}}" alt="A companion with an older person at home in {{city}}"></div>
+      <div class="float"><img src="assets/img/{{image2}}" alt=""></div>
+    </div>
+  </div>
+</section>
+
+<!-- Local companions + neighbourhoods -->
+<section class="section">
+  <div class="container split">
+    <div class="reveal">
+      <span class="eyebrow">Serving {{city}}</span>
+      <h2>Local companions who know {{city}}</h2>
+      <p>Our {{city}} companions live and work locally — they understand the neighborhoods, know the area, and can be relied upon to arrive consistently and on time. That local knowledge matters: familiar surroundings and a familiar face are among the most reassuring things we can offer someone living with dementia.</p>
+      <p>We serve families across {{county}}, providing the same high standard of care and the same commitment to consistency in every home we visit. Whether you are in the center of {{city}} or in a quieter neighborhood on the edge of the county, our team can reach you.</p>
+      <p>Getting started is simple: reach out, tell us about your loved one, and we will take it from there. The first conversation is free and without obligation.</p>
+      <a class="btn btn-green" href="contact.html">Start a free conversation</a>
+    </div>
+    <div class="reveal">
+      <div class="neighborhoods">
+        <h3>Areas we cover in {{city}}</h3>
+        <ul>{{neighborhoodItems}}</ul>
+        <p class="not-listed">Not listed? <a href="contact.html">Ask us</a> — our boundaries are flexible and we cover many nearby locations.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Local testimonial -->
+<section class="section testi bg-dark" style="padding:64px 0">
+  <div class="container grid">
+    <div class="reveal">
+      <span class="eyebrow">A Family in {{city}}</span>
+      <div class="testi-card">
+        <div class="stars">★★★★★</div>
+        <p>"{{quote}}"</p>
+        <div class="author"><span class="av">{{initials}}</span><div><strong>{{author}}</strong><small>{{relation}} · {{city}}, FL</small></div></div>
+      </div>
+    </div>
+    <div class="blob-wrap reveal" style="padding-top:0">
+      <div class="blob" style="aspect-ratio:1/.9"><img src="assets/img/{{image2}}" alt=""></div>
+      <div class="badge-circle" aria-hidden="true" style="top:-20px">
+        <svg viewBox="0 0 150 150"><defs><path id="circ-city" d="M75,75 m-58,0 a58,58 0 1,1 116,0 a58,58 0 1,1 -116,0"/></defs><text><textPath href="#circ-city">SAME COMPANION • EVERY VISIT • SAME COMPANION • </textPath></text></svg>
+        <div class="inner"><b>48h</b>Match<br>Time</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Services in city -->
+<section class="section">
+  <div class="container">
+    <div class="center reveal">
+      <span class="eyebrow">How We Help in {{city}}</span>
+      <h2>In-home dementia care services in {{city}}</h2>
+    </div>
+    <div class="cards reveal">
+      <div class="card">
+        <div class="ico"><svg><use href="#i-heart"/></svg></div>
+        <h3>Companionship visits</h3>
+        <p>Regular, consistent visits from a trusted companion who knows your loved one — building the kind of relationship that genuinely supports wellbeing over time.</p>
+        <a class="link-arrow" style="margin-top:1rem;font-size:.9rem" href="services.html#companionship">Learn more <svg width="14" height="14"><use href="#i-arrow"/></svg></a>
+      </div>
+      <div class="card">
+        <div class="ico"><svg><use href="#i-cup"/></svg></div>
+        <h3>Caregiver respite</h3>
+        <p>Reliable, regular time off for family caregivers — with the assurance that your loved one is in good hands while you rest and recharge.</p>
+        <a class="link-arrow" style="margin-top:1rem;font-size:.9rem" href="services.html#respite">Learn more <svg width="14" height="14"><use href="#i-arrow"/></svg></a>
+      </div>
+      <div class="card">
+        <div class="ico"><svg><use href="#i-brain"/></svg></div>
+        <h3>Memory &amp; engagement</h3>
+        <p>Personalised activity and reminiscence sessions that draw on your loved one's own history, interests, and identity — stimulating, joyful, and entirely individual.</p>
+        <a class="link-arrow" style="margin-top:1rem;font-size:.9rem" href="services.html#memory">Learn more <svg width="14" height="14"><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Other areas -->
+<section class="section-sm bg-cream-2">
+  <div class="container">
+    <div class="assess" style="margin-top:0">
+      <span>Also serving:</span>
+      {{otherCityLinks}}
+      <a class="link-arrow" href="areas.html">All areas <svg width="14" height="14"><use href="#i-arrow"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section-sm">
+  <div class="container">
+    <div class="cta-band reveal">
+      <div>
+        <span class="eyebrow" style="color:#f0c896">Start Today</span>
+        <h2>Ready to get support in {{city}}?</h2>
+        <p>Our first conversation is free and without any commitment. We will listen to your situation and give you an honest picture of whether and how we can help.</p>
+        <div class="ticks">
+          <span><svg><use href="#i-check"/></svg> Free consultation</span>
+          <span><svg><use href="#i-check"/></svg> Local {{city}} companions</span>
+          <span><svg><use href="#i-check"/></svg> Matched within 48 hours</span>
+        </div>
+      </div>
+      <div class="actions">
+        <a class="btn btn-amber" href="contact.html">See 3 Free Caregiver Profiles</a>
+        <a class="btn btn-outline-light" href="index.html#how-it-works">How it works</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>

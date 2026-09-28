@@ -1,0 +1,50 @@
+[
+  {
+    "slug": "miami",
+    "city": "Miami",
+    "county": "Miami-Dade County",
+    "neighborhoods": ["Coral Gables", "Coconut Grove", "South Miami", "Brickell", "Wynwood", "Key Biscayne", "Pinecrest"],
+    "image": "hero.jpg",
+    "image2": "comforting.jpg",
+    "quote": "We tried other services before and kept getting a different person every week. Dad found it really unsettling. With Dementia Companions he has had the same companion for eight months. He asks about her when she is not there. That consistency has made an enormous difference.",
+    "author": "Margaret T.",
+    "relation": "Daughter",
+    "initials": "MT"
+  },
+  {
+    "slug": "orlando",
+    "city": "Orlando",
+    "county": "Orange & Osceola Counties",
+    "neighborhoods": ["Winter Park", "Maitland", "Lake Nona", "Dr. Phillips", "Kissimmee", "Oviedo", "Baldwin Park"],
+    "image": "communication.jpg",
+    "image2": "walking.jpg",
+    "quote": "From the first call, everything was handled with such care and professionalism. Our companion has become a genuine part of Mum's week — she lights up when she arrives.",
+    "author": "James R.",
+    "relation": "Son",
+    "initials": "JR"
+  },
+  {
+    "slug": "tampa",
+    "city": "Tampa",
+    "county": "Hillsborough County",
+    "neighborhoods": ["South Tampa", "Hyde Park", "Westchase", "Brandon", "Riverview", "Carrollwood", "Seminole Heights"],
+    "image": "first-visit.jpg",
+    "image2": "hero.jpg",
+    "quote": "The matching process was thoughtful in a way we had not experienced before. They took time to understand who my mother is as a person, not just her diagnosis.",
+    "author": "Patricia N.",
+    "relation": "Daughter",
+    "initials": "PN"
+  },
+  {
+    "slug": "jacksonville",
+    "city": "Jacksonville",
+    "county": "Duval County",
+    "neighborhoods": ["Ponte Vedra", "Southside", "Riverside", "Avondale", "Mandarin", "Fleming Island", "San Marco"],
+    "image": "walking.jpg",
+    "image2": "communication.jpg",
+    "quote": "The respite visits gave me my first proper afternoon off in over a year. Knowing Dad was genuinely cared for made all the difference.",
+    "author": "Sandra L.",
+    "relation": "Daughter",
+    "initials": "SL"
+  }
+]

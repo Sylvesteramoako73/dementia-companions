@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /src/
+Disallow: /404.html
+
+Sitemap: https://dementiacompanions.com/sitemap.xml
