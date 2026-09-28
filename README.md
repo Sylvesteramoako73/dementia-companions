@@ -36,8 +36,19 @@ loading, and is listed in `sitemap.xml`. `robots.txt` and `404.html` are generat
 ## Editing
 
 1. Edit a page in `src/pages/` (or the partials for site-wide changes).
-2. Run `node build.js`.
+2. Run `npm run build` (or `node build.js`).
 3. Open any root `*.html` file in a browser — no server needed.
+
+For a local server with clean URLs and a working 404 page, run `npm run dev`
+(builds, then serves on http://localhost:8080).
 
 Forms are front-end only (`data-demo`): wire them to Formspree, Netlify Forms,
 or your WordPress endpoint before going live.
+
+## Deploying (Vercel)
+
+`vercel.json` pins the project as a static site: `framework: null`,
+`buildCommand: node build.js`, `outputDirectory: .`. Do **not** add a `start`
+script to package.json — Vercel then detects a Node server and deploys
+`dev-server.js` as a serverless function instead of serving the site
+statically, which 404s every asset.

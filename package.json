@@ -5,8 +5,8 @@
   "description": "Static marketing site for Dementia Companions — in-home dementia care across Florida.",
   "scripts": {
     "build": "node build.js",
-    "start": "node server.js",
-    "dev": "node build.js && node server.js"
+    "serve": "node dev-server.js",
+    "dev": "node build.js && node dev-server.js"
   },
   "engines": {
     "node": ">=18"
